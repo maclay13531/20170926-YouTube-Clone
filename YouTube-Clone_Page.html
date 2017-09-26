@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>YouTube V.2015 - Clone </title>
+	<title>YouTube V.2015 - Clone</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -12,19 +12,37 @@
 		.header-link{
 			text-decoration: underline;
 		}
+
 		.header-right-text{
 			font-size: 12px;
 			padding: 0;
 			text-align: center;
+			margin-top: 30px;
 		}
+
+		.header-middle{
+			margin-top: 30px;
+		}
+
 		.header-right-link{
 			color: black;
 		}
 		.header-middle-link{
 			border-right: 1px solid black;
 		}
+
 		.header{
 			border-bottom: 1px solid black;
+			margin-top: 30px;
+		}
+
+		.messed-up{
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.header-right{
+			margin-top: 15px;
 		}
 
 		.main-picture{
@@ -37,10 +55,19 @@
 
 		.more-videos{
 			border: 1px solid black;
+			margin-bottom: 10px;
 		}
 
 		.border{
 			border: 1px solid black;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+		.border-right{
+			border: 1px solid white;
+			margin-top: 30px;
+			margin-bottom: 30px;
 		}
 
 		.right-pop-text{
@@ -51,169 +78,172 @@
 </head>
 <body>
 <!-- Start of the header -->
-	<div class="container well">
+	<div class="container">
 		<div class="row header">
-			<div class="col-xs-3 well thumbnail">
-				<div class="col-xs-12 well">
+			<div class="col-xs-3">
+				<div class="col-xs-12">
 					<img src="https://www.youtube.com/yt/about/media/images/brand-resources/logos/YouTube-logo-full_color_light.svg">
 				</div>
-				<div class="col-xs-12 well">
+				<div class="col-xs-12">
 					<h4>Broadcast Yourself!</h4>
 				</div>
 			</div>
 
-			<div class="col-xs-6 well">
-				<div class="col-xs-8 well">
-					<div class="col-xs-12 well">
+			<div class="col-xs-6 header-middle">
+				<div class="col-xs-8">
+					<div class="col-xs-12">
 						<div class="form-group">
 							<input type="text">
 						</div>
 					</div>
-					<div class="col-xs-4 well header-link header-middle-link">
+					<div class="col-xs-4 header-link header-middle-link messed-up">
 						<a href="">Home</a>
 					</div>
-					<div class="col-xs-4 well header-link header-middle-link">
+					<div class="col-xs-4 header-link header-middle-link messed-up">
 						<a href="">Videos</a>
 					</div>
-					<div class="col-xs-4 well header-link">
+					<div class="col-xs-4 header-link messed-up">
 						<a href="">Channel</a>	
 					</div>
 				</div>
-				<div class="col-xs-4 well">
+				<div class="col-xs-4">
 					<button class="btn btn-secondary">Search</button>
 				</div>
 			</div>
-
-			<div class="col-xs-3 well">
-				<div class="col-xs-12 well">
+			<div class="col-xs-3 header-right">
+				<div class="col-xs-12">
 					<a href="">Create Account</a><span> or </span><a href="">Sign-in</a>
 
 				</div>
-				<div class="col-xs-4 well header-right-text">
+				<div class="col-xs-4 header-right-text messed-up">
 					<a class="header-right-link" href="">Subscriptions</a>
 				</div>
-				<div class="col-xs-4 well header-right-text">
+				<div class="col-xs-4 header-right-text messed-up">
 					<a class="header-right-link" href="">History</a>
 				</div>
-				<div class="col-xs-4 well header-right-text">
+				<div class="col-xs-4 header-right-text messed-up">
 					<a class="header-right-link" href="">Upload</a>
 				</div>
 			</div>
 		</div>
 	</div>
 <!-- Start of the Main/Feature Content -->
-	<div class="container well">
+	<div class="container">
 		<div class="row main">
-			<div class="col-xs-9 well border">	
-				<div class="col-xs-7 well main-picture thumbnail vh-trick">
-					<a href=""><img src="http://www.mixed-up.com/markb/Code/svg/randomsvg.php?width=600&height=600&npoly=100&color=a">
-					</a>			
+			<div class="col-xs-9 border">
+				<h3>Featured</h3>	
+				<div class="col-xs-7 main-picture thumbnail vh-trick">
+					<div class="embed-responsive embed-responsive-4by3">
+						<iframe src="https://www.youtube.com/embed/gqOEoUR5RHg" frameborder="0" allowfullscreen></iframe>
+					</div>			
 				</div>
-				<div class="col-xs-5 well">
-					<div class="col-xs-12 well">
-						<div class="col-xs-6 well main-picture thumbnail">
-							<img src="http://via.placeholder.com/600x480">
+				<div class="col-xs-5">
+					<div class="col-xs-12">
+						<div class="col-xs-6 main-picture thumbnail">
+							<a href="YouTube-Clone_Page1.html"><img src="http://via.placeholder.com/600x480"></a>
 						</div>
-						<div class="col-xs-6 well main-text-size">
+						<div class="col-xs-6 main-text-size">
 							She does not know what to put so I am writing something to put something so that something is in it.
 						</div>
 					</div>
-					<div class="col-xs-12 well">
-						<div class="col-xs-6 well main-picture thumbnail">
+					<div class="col-xs-12">
+						<div class="col-xs-6 main-picture thumbnail">
 							<img src="http://via.placeholder.com/600x480">
 						</div>
-						<div class="col-xs-6 well main-text-size">
+						<div class="col-xs-6 main-text-size">
 							She does not know what to put so I am writing something to put something so that something is in it.
 						</div>
 					</div>
-					<div class="col-xs-12 well">
-						<div class="col-xs-6 well main-picture thumbnail">
+					<div class="col-xs-12">
+						<div class="col-xs-6 main-picture thumbnail">
 							<img src="http://via.placeholder.com/600x480">
 						</div>
-						<div class="col-xs-6 well main-text-size">
+						<div class="col-xs-6 main-text-size">
 							She does not know what to put so I am writing something to put something so that something is in it.
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-3 well">
-				<div class="col-xs-12 well thumbnail">
+			<div class="col-xs-3 border-right">
+				<div class="col-xs-12 thumbnail">
 					<!-- <img src="https://www.youtube.com/yt/about/media/images/brand-resources/logos/YouTube-logo-full_color_light.svg"> -->
 					<img src="http://via.placeholder.com/600x480">
 				</div>
-				<div class="col-xs-12 well">
+				<div class="col-xs-12">
 					<p class="right-pop-text">She does not know what to put so I am writing something to put something so that something is in it.</p>
 				</div>	
 			</div>
 		</div>
 	</div>
 <!-- Start of the more videos -->
-	<div class="container well">
+	<div class="container">
 		<div class="row more-videos">
-			<div class="col-xs-12 well">
-				More Videos
+			<div class="col-xs-12">
+				<h4>More Videos</h4>
 			</div>
-			<div class="col-xs-3 well">
-				<div class="col-xs-6 well thumbnail">
+			<div class="col-xs-3">
+				<div class="col-xs-6 thumbnail">
 					<img src="http://via.placeholder.com/600x480">
 				</div>
-				<div class="col-xs-6 well main-text-size">
+				<div class="col-xs-6 main-text-size">
 					She does not know what to put so I am writing something to put something so that something is in it.
 				</div>
 			</div>
-			<div class="col-xs-3 well">
-				<div class="col-xs-6 well thumbnail">
+			<div class="col-xs-3">
+				<div class="col-xs-6 thumbnail">
 					<img src="http://via.placeholder.com/600x480">
 				</div>
-				<div class="col-xs-6 well main-text-size">
+				<div class="col-xs-6 main-text-size">
 					She does not know what to put so I am writing something to put something so that something is in it.
 				</div>
 			</div>
-			<div class="col-xs-3 well">
-				<div class="col-xs-6 well thumbnail">
+			<div class="col-xs-3">
+				<div class="col-xs-6 thumbnail">
 					<img src="http://via.placeholder.com/600x480">
 				</div>
-				<div class="col-xs-6 well main-text-size">
+				<div class="col-xs-6 main-text-size">
 					She does not know what to put so I am writing something to put something so that something is in it.
 				</div>
 			</div>
-			<div class="col-xs-3 well">
-				<div class="col-xs-6 well thumbnail">
+			<div class="col-xs-3">
+				<div class="col-xs-6 thumbnail">
 					<img src="http://via.placeholder.com/600x480">
 				</div>
-				<div class="col-xs-6 well main-text-size">
+				<div class="col-xs-6 main-text-size">
 					She does not know what to put so I am writing something to put something so that something is in it.
 				</div>
 			</div>
-			<div class="col-xs-3 well">
-				<div class="col-xs-6 well thumbnail">
+			<div class="col-xs-3">
+				<div class="col-xs-6 thumbnail">
 					<img src="http://via.placeholder.com/600x480">
 				</div>
-				<div class="col-xs-6 well main-text-size">
+				<div class="col-xs-6 main-text-size">
 					She does not know what to put so I am writing something to put something so that something is in it.
 				</div>
 			</div>
-			<div class="col-xs-3 well">
-				<div class="col-xs-6 well thumbnail">
+			<div class="col-xs-3">
+				<div class="col-xs-6 thumbnail">
 					<img src="http://via.placeholder.com/600x480">
 				</div>
-				<div class="col-xs-6 well main-text-size">
+				<div class="col-xs-6 main-text-size">
 					<p>She does not know what to put so I am writing something to put something so that something is in it.</p>
 				</div>
 			</div>
-			<div class="col-xs-3 well">
-				<div class="col-xs-6 well thumbnail">
+			<div class="col-xs-3">
+				<div class="col-xs-6 thumbnail">
 					<img src="http://via.placeholder.com/600x480">
 				</div>
-				<div class="col-xs-6 well main-text-size">
+				<div class="col-xs-6 main-text-size">
 					<p>She does not know what to put so I am writing something to put something so that something is in it.</p>
 				</div>
 			</div>
-			<div class="col-xs-3 well">
-				<div class="col-xs-6 well thumbnail">
-					<img src="http://via.placeholder.com/600x480">
+			<div class="col-xs-3">
+				<div class="col-xs-6 thumbnail">
+					<div class="embed-responsive embed-responsive-4by3">
+						<iframe src="https://www.youtube.com/embed/gqOEoUR5RHg" frameborder="0" allowfullscreen></iframe>
+					</div>	
 				</div>
-				<div class="col-xs-6 well main-text-size">
+				<div class="col-xs-6 main-text-size">
 					<p>She does not know what to put so I am writing something to put something so that something is in it.</p>
 				</div>
 			</div>
