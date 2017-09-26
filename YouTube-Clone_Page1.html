@@ -1,10 +1,281 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	
+	<title>YouTube V.2015 - Clone</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<style type="text/css" media="screen">
+		
+		input{
+			width: 100%;
+		}
+
+		.header-link{
+			text-decoration: underline;
+		}
+
+		.header-right-text{
+			font-size: 12px;
+			padding: 0;
+			text-align: center;
+			margin-top: 30px;
+		}
+
+		.header-middle{
+			margin-top: 30px;
+		}
+
+		.header-right-link{
+			color: black;
+		}
+
+		.header-middle-link{
+			border-right: 1px solid black;
+		}
+
+		.header{
+			border-bottom: 1px solid black;
+			margin-top: 30px;
+		}
+
+		.messed-up{
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.header-right{
+			margin-top: 15px;
+		}
+
+		.video-bottom-links{
+			font-weight: bold;
+		}
+
+		.icons-text-move{
+			padding-top: 5px
+		}
+
+		.share-icon{
+			border: 0px solid white;
+		}
+
+		.view-count{
+			text-align: right;
+		}
+
+		.profile-container{
+			border: 1px solid black;
+			padding: 3%;
+		}
+
+		.profile-description{
+			font-size: 12px;
+			text-decoration-line: underline;
+		}
+
+		.profile-image{
+			margin-top: 5%;
+		}
+
+		.profile-comments{
+			text-decoration-line: underline;	
+		}
+
+	</style>
+
 </head>
 <body>
-	<p>dfkjhdflkjb</p>
+	<!-- Start of the header -->
+	<div class="container">
+		<div class="row header">
+			<div class="col-xs-3">
+				<div class="col-xs-12">
+					<a href="YouTube-Clone_page.html"><img src="https://www.youtube.com/yt/about/media/images/brand-resources/logos/YouTube-logo-full_color_light.svg">
+					</a>
+				</div>
+				<div class="col-xs-12">
+					<h4>Broadcast Yourself!</h4>
+				</div>
+			</div>
 
+			<div class="col-xs-6 header-middle">
+				<div class="col-xs-8">
+					<div class="col-xs-12">
+						<div class="form-group">
+							<input type="text">
+						</div>
+					</div>
+					<div class="col-xs-4 header-link header-middle-link messed-up">
+						<a href="">Home</a>
+					</div>
+					<div class="col-xs-4 header-link header-middle-link messed-up">
+						<a href="">Videos</a>
+					</div>
+					<div class="col-xs-4 header-link messed-up">
+						<a href="">Channel</a>	
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<button class="btn btn-secondary">Search</button>
+				</div>
+			</div>
+			<div class="col-xs-3 header-right">
+				<div class="col-xs-12">
+					<a href="">Create Account</a><span> or </span><a href="">Sign-in</a>
+
+				</div>
+				<div class="col-xs-4 header-right-text messed-up">
+					<a class="header-right-link" href="">Subscriptions</a>
+				</div>
+				<div class="col-xs-4 header-right-text messed-up">
+					<a class="header-right-link" href="">History</a>
+				</div>
+				<div class="col-xs-4 header-right-text messed-up">
+					<a class="header-right-link" href="">Upload</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- Start of Main Content -->
+	<div class="container">
+		<div class="row main-content">
+			<div class="col-sm-12 video-title"> 
+				<h3> Video Title </h3>
+			</div>
+		<!-- Left Side -->
+			<div class="col-sm-8">
+				<div class="col-sm-12 embed-responsive embed-responsive-16by9">		
+					<iframe src="https://www.youtube.com/embed/gqOEoUR5RHg" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="col-sm-2 video-bottom-links">
+					<div class="col-sm-4 thumbnail share-icon">
+						<img src="https://d30y9cdsu7xlg0.cloudfront.net/png/16644-200.png">
+					</div>
+					<div class="col-sm-8 icons-text-move">
+						<a href="">Share</a>
+					</div>
+				</div>
+				<div class="col-sm-2 video-bottom-links">
+					<div class="col-sm-4 thumbnail share-icon">
+						<img src="http://www.myiconfinder.com/uploads/iconsets/00c05944c0a3f8f0dfe99e5fdc328608-heart.png">
+					</div>
+					<div class="col-sm-8 icons-text-move">
+						<a href="">Favorite</a>
+					</div>
+				</div>
+				<div class="col-sm-2 flag video-bottom-links ">
+					<div class="col-sm-4 thumbnail share-icon">
+						<img src="https://cdn4.iconfinder.com/data/icons/meBaze-Freebies/512/info.png">
+					</div>
+					<div class="col-sm-8 icons-text-move">
+						<a href="">Flag</a>
+					</div>
+				</div>
+				<div class="col-sm-6 view-count">
+					25 Views
+				</div>
+				<div class="col-sm-12 comments-section">
+					<h4>Comments</h4>
+				</div>
+				<div class="col-sm-12 user1-box">
+					<div class="col-sm-12 user1-title">
+						<h5><a href="">User 1</a></h5>
+					</div>
+					<div class="col-sm-12 user1-comment">
+						<p>She does not know what to put so I am writing something to put something so that something is in it.</p>
+					</div>
+				</div>
+				<div class="col-sm-12 user2-box">
+					<div class="col-sm-12 user2-title">
+						<h5><a href="">User 2</a></h5>
+					</div>
+					<div class="col-sm-12 user2-comment">
+						<p>
+						She does not know what to put so I am writing something to put something so that something is in it.</p>
+					</div>
+				</div>
+			</div>
+		<!-- Right Side	 -->	
+			<div class="col-sm-4">
+				<div class="col-sm-12 profile-container">
+					<div class="col-sm-2 profile-image thumbnail">
+						<img src="http://via.placeholder.com/50x50">
+					</div>
+					<div class="col-sm-6 profile-box">
+						<div class="col-sm-12 profile-title">
+							<h4><a href="https://github.com/maclay13531">Profile</a></h4>
+						</div>
+						<div class="col-sm-12 profile-description">
+							Some descriptive words about things.
+						</div>
+					</div>
+					<div class="col-sm-4 subscribe-button">
+						<button class="btn btn-secondary">Subscribe</button>
+					</div>
+					<div class="col-sm-12 profile-comments">
+						<p>She does not know what to put so I am writing something to put something so that something is in it.</p>
+					</div>
+				</div>			
+				<div class="col-sm-12">
+					<h3>Related Videos</h3>
+				</div>
+				<div class="col-sm-12">
+					<div class="col-sm-3 thumbnail">
+						<img src="http://via.placeholder.com/600x480">
+					</div>
+					<div class="col-sm-9">
+						<div class="col-sm-12">
+							<a href="">Related Video...</a>
+						</div>
+						<div class="col-sm-12">
+							727 views
+						</div>
+					</div>	
+				</div>
+				<div class="col-sm-12">
+					<div class="col-sm-3 thumbnail">
+						<img src="http://via.placeholder.com/600x480">
+					</div>
+					<div class="col-sm-9">
+						<div class="col-sm-12">
+							<a href="">Related Video...</a>
+						</div>
+						<div class="col-sm-12">
+							727 views
+						</div>
+					</div>	
+				</div>
+				<div class="col-sm-12">
+					<div class="col-sm-3 thumbnail">
+						<img src="http://via.placeholder.com/600x480">
+					</div>
+					<div class="col-sm-9">
+						<div class="col-sm-12">
+							<a href="">Related Video...</a>
+						</div>
+						<div class="col-sm-12">
+							727 views
+						</div>
+					</div>	
+				</div>
+				<div class="col-sm-12">
+					<div class="col-sm-3 thumbnail">
+						<img src="http://via.placeholder.com/600x480">
+					</div>
+					<div class="col-sm-9">
+						<div class="col-sm-12">
+							<a href="">Related Video...</a>
+						</div>
+						<div class="col-sm-12">
+							727 views
+						</div>
+					</div>	
+				</div>
+			</div>
+				
+		</div>
+	</div>
 </body>
 </html>
